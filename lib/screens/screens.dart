@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
 import 'package:line_icons/line_icons.dart';
+
+import 'package:shoppingapp/screens/cart_screen.dart';
 import 'package:shoppingapp/screens/home_screen.dart';
 
 class Screens extends StatefulWidget {
@@ -15,7 +17,7 @@ class _ScreensState extends State<Screens> {
 
   static final List<Widget> _widgetOptions = <Widget>[
     const HomeScreen(),
-    Container(),
+    const CartScreen(),
     Container(),
     Container(),
   ];
